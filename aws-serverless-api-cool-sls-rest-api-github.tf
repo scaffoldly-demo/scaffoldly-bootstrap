@@ -18,6 +18,7 @@ module "github_stage_secrets_cool_sls_rest_api" {
     AWS_SECRET_ACCESS_KEY         = module.aws_serverless_api_cool_sls_rest_api.deployer_credentials.secret_key
     AWS_REST_API_ID               = each.value.api_id
     AWS_REST_API_ROOT_RESOURCE_ID = each.value.api_resource_id
+    AWS_WEBSOCKET_API_ID          = each.value.websocket_api_id
   }
 
   depends_on = [
