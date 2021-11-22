@@ -4,7 +4,7 @@
 
 module "aws_serverless_api_cool_sls_rest_api" {
   source  = "scaffoldly/serverless-api/aws"
-  version = "1.0.19"
+  version = "1.0.20"
 
   repository_name    = "cool-sls-rest-api"
   api_gateway_stages = module.bootstrap_aws.api_gateway_stages
