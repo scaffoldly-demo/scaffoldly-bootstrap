@@ -13,3 +13,6 @@
 2020040470:
   source: 'https://github.com/scaffoldly/archetype-scaffoldly-bootstrap.git'
   options: '-s overwrite -s aws -s github -s serverless-api -a serverless-api-repos=payments-sls-rest-api'
+2020046208:
+  source: 'https://github.com/scaffoldly/archetype-scaffoldly-bootstrap.git'
+  options: '-s overwrite -s aws -s github -s serverless-api -a serverless-api-repos=django-sls-rest-api'
