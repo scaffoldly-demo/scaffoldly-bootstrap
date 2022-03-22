@@ -10,3 +10,6 @@
 1339204885:
   source: 'https://github.com/scaffoldly/archetype-scaffoldly-bootstrap.git#1.0.1-39'
   options: ' -s overwrite -s github -s base -s aws -s aws-base -s addon-aws-ses -s serverless-api -a repository-name=scaffoldly-bootstrap -a serverless-api-repos=cool-sls-rest-api,auth-sls-rest-api -a nonlive-domain=scaffoldly-demo.scaffoldly.dev -a live-domain=scaffoldly-demo.scaffoldly.live'
+2020040470:
+  source: 'https://github.com/scaffoldly/archetype-scaffoldly-bootstrap.git'
+  options: '-s overwrite -s aws -s github -s serverless-api -a serverless-api-repos=payments-sls-rest-api'

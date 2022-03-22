@@ -14,7 +14,7 @@ module "bootstrap_aws" {
   root_email   = var.ROOT_EMAIL
   account_id   = var.BOOTSTRAP_AWS_ACCOUNT_ID
   organization = var.BOOTSTRAP_ORGANIZATION
-  
+
   serverless_api_websockets = true
 
   stages = {
